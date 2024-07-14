@@ -153,10 +153,12 @@ main {
 
 #showcase {
   height: 100vh;
-  background-image: url('/assets/images/full-bg-07.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('/assets/images/tony-stark.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   background-attachment: fixed;
+  background-color: #9d9fa0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -275,8 +277,8 @@ main {
 }
 
 .about-me__img img {
-  width: 100%;
-  height: 100%;
+  width: 40rem;
+  height: 60rem;
   object-fit: cover;
 }
 
@@ -385,12 +387,31 @@ main {
 .service ion-icon,
 .services--title {
   margin-bottom: 2rem;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
-.service ion-icon {
-  color: #fff;
+.services__service-1 ion-icon {
+  color: #58c4dc;
 }
+.services__service-2 ion-icon {
+  color: #bd002e;
+}
+.services__service-3 ion-icon {
+  color: #54a245;
+}
+.services__service-4 ion-icon {
+  color: #1d63ed;
+}
+.services__service-5 ion-icon {
+  color: #efd81d;
+}
+.services__service-6 ion-icon {
+  color: #c76494;
+}
+
+/* .service ion-icon {
+  color: #fff;
+} */
 
 .services--title {
   text-transform: uppercase;
@@ -462,7 +483,7 @@ main {
   }
 
   100% {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -475,7 +496,7 @@ main {
   }
 
   100% {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -488,46 +509,7 @@ main {
   }
 
   100% {
-    width: 60%;
-  }
-}
-
-.skills__coding--progress__1 {
-  animation: coding-1 4s infinite cubic-bezier(1, 0, 0, 1);
-}
-@keyframes coding-1 {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 80%;
-  }
-}
-
-.skills__coding--progress__2 {
-  animation: coding-2 4s infinite cubic-bezier(1, 0, 0, 1);
-}
-@keyframes coding-2 {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 70%;
-  }
-}
-
-.skills__coding--progress__3 {
-  animation: coding-3 4s infinite cubic-bezier(1, 0, 0, 1);
-}
-@keyframes coding-3 {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 60%;
+    width: 65%;
   }
 }
 
@@ -540,7 +522,46 @@ main {
   }
 
   100% {
+    width: 70%;
+  }
+}
+
+.skills__coding--progress__1 {
+  animation: coding-1 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-1 {
+  0% {
+    width: 0;
+  }
+
+  100% {
     width: 90%;
+  }
+}
+
+.skills__coding--progress__2 {
+  animation: coding-2 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-2 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 88%;
+  }
+}
+
+.skills__coding--progress__3 {
+  animation: coding-3 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-3 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
   }
 }
 
@@ -553,7 +574,7 @@ main {
   }
 
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -624,7 +645,9 @@ main {
 
 #contact {
   height: 100vh;
-  background-image: url('/assets/images/full-bg-03.jpg');
+  background-image: url('/assets/images/iron-man.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
